@@ -42,69 +42,262 @@
         </style>
     </head>
     <body class="font-manrope bg-hockey-primary-bg">
-        <header>
-            <nav>
-                <div class="navbar">
-                    <div class="navbar-start">
-                        <div class="dropdown">
-                            <div
-                                tabindex="0"
-                                role="button"
-                                class="btn btn-ghost lg:hidden"
-                            >
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    class="h-5 w-5"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    stroke="currentColor"
+        <div class="w-10/12 mx-auto">
+            <header>
+                <nav>
+                    <div class="navbar mb-11">
+                        <div class="navbar-start">
+                            <div class="dropdown">
+                                <div
+                                    tabindex="0"
+                                    role="button"
+                                    class="btn btn-ghost lg:hidden"
                                 >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        stroke-width="2"
-                                        d="M4 6h16M4 12h8m-8 6h16"
-                                    />
-                                </svg>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-5 w-5"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M4 6h16M4 12h8m-8 6h16"
+                                        />
+                                    </svg>
+                                </div>
+                                <ul
+                                    tabindex="0"
+                                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 text-xl shadow bg-base-100 rounded-box w-52"
+                                >
+                                    <li><a>Home</a></li>
+                                    <li><a>About</a></li>
+                                    <li><a>Pages</a></li>
+                                    <li><a>Blog</a></li>
+                                    <li><a>Contact</a></li>
+                                </ul>
                             </div>
-                            <ul
-                                tabindex="0"
-                                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 text-xl shadow bg-base-100 rounded-box w-52"
+                            <a
+                                class="btn btn-ghost text-4xl text-hockey-primary-title"
+                                >Hockey
+                                <span class="text-hockey-primary-btn">’</span
+                                >s</a
                             >
-                                <li><a>Home</a></li>
+                        </div>
+                        <div class="navbar-center hidden lg:flex">
+                            <ul
+                                class="menu menu-horizontal px-1 text-hockey-primary-paragraph"
+                            >
+                                <li class="text-hockey-primary-btn">
+                                    <a>Home</a>
+                                </li>
                                 <li><a>About</a></li>
                                 <li><a>Pages</a></li>
                                 <li><a>Blog</a></li>
                                 <li><a>Contact</a></li>
                             </ul>
                         </div>
-                        <a
-                            class="btn btn-ghost text-4xl text-hockey-primary-title"
-                            >Hockey
-                            <span class="text-hockey-primary">’</span>s</a
-                        >
+                        <div class="navbar-end">
+                            <a
+                                class="btn bg-hockey-primary-btn text-hockey-primary-bg border-none"
+                                >Get Ticket</a
+                            >
+                        </div>
                     </div>
-                    <div class="navbar-center hidden lg:flex">
-                        <ul
-                            class="menu menu-horizontal px-1 text-hockey-primary-paragraph"
+                </nav>
+                <!-- slider or carousel -->
+                <div class="carousel w-full mb-32">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img
+                            src="./B9A3-Hockeys-main/Images/1.png"
+                            class="w-full"
+                        />
+                        <div
+                            class="absolute flex gap-5 transform -translate-y-1/2 left-5 right-5 bottom-0"
                         >
-                            <li class="text-hockey-primary-btn"><a>Home</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Pages</a></li>
-                            <li><a>Blog</a></li>
-                            <li><a>Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="navbar-end">
-                        <a
-                            class="btn bg-hockey-primary-btn text-hockey-primary-bg border-none"
-                            >Get Ticket</a
-                        >
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
                     </div>
                 </div>
-            </nav>
-        </header>
-        <main></main>
-        <footer></footer>
+            </header>
+            <main>
+                <!-- Professional Hockeys Club -->
+                <div class="text-center">
+                    <h3
+                        class="text-hockey-primary-title text-4xl font-extrabold mb-6"
+                    >
+                        Professional Hockeys Club
+                    </h3>
+                    <p class="text-hockey-primary-paragraph my-4">
+                        Professional Hockey Clubs are top-tier teams that
+                        compete in leagues like the NHL. Based in specific
+                        regions, they gather skilled players, entertain fans,
+                        and contribute to the global development of ice hockey.
+                    </p>
+                </div>
+                <!-- radial progress section -->
+                <div class="flex justify-around gap-8 mt-12">
+                    <div class="text-center">
+                        <div
+                            class="radial-progress text-red-600"
+                            style="--value: 87"
+                            role="progressbar"
+                        >
+                            <span
+                                class="text-hockey-primary-title font-extrabold text-xl"
+                                >87%</span
+                            >
+                        </div>
+                        <h3 class="text-hockey-primary-title font-bold mt-6">
+                            Prayer Facility
+                        </h3>
+                        <p class="text-hockey-primary-paragraph mt-4">
+                            Our hockey club has prayer facilities for 87% of
+                            members, promoting inclusivity and a welcoming
+                            environment for all.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <div
+                            class="radial-progress text-green-400"
+                            style="--value: 95"
+                            role="progressbar"
+                        >
+                            <span
+                                class="text-hockey-primary-title font-extrabold text-xl"
+                                >95%</span
+                            >
+                        </div>
+                        <h3 class="text-hockey-primary-title font-bold mt-6">
+                            Experienced Coach
+                        </h3>
+                        <p class="text-hockey-primary-paragraph mt-4">
+                            Our team benefits from a highly experienced coach,
+                            with 95% expertise, ensuring top-notch guidance and
+                            performance enhancement for our players.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <div
+                            class="radial-progress text-amber-400"
+                            style="--value: 90"
+                            role="progressbar"
+                        >
+                            <span
+                                class="text-hockey-primary-title font-extrabold text-xl"
+                                >90%</span
+                            >
+                        </div>
+                        <h3 class="text-hockey-primary-title font-bold mt-6">
+                            Senior Player
+                        </h3>
+                        <p class="text-hockey-primary-paragraph mt-4">
+                            Our team boasts a 90% senior player composition,
+                            reflecting a seasoned and skilled lineup dedicated
+                            to excellence on the field.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <div
+                            class="radial-progress text-blue-500"
+                            style="--value: 80"
+                            role="progressbar"
+                        >
+                            <span
+                                class="text-hockey-primary-title font-extrabold text-xl"
+                                >80%</span
+                            >
+                        </div>
+                        <h3 class="text-hockey-primary-title font-bold mt-6">
+                            Training Ground
+                        </h3>
+                        <p class="text-hockey-primary-paragraph mt-4">
+                            Our team hones its skills at a state-of-the-art
+                            training ground, providing a top-notch facility for
+                            players' development and preparation.
+                        </p>
+                    </div>
+                </div>
+                <!-- Program Sections -->
+                <div class="text-center mb-20">
+                    <h3 class="text-hockey-primary-title font-extrabold mt-32">
+                        Program Sections
+                    </h3>
+                    <p class="text-hockey-primary-paragraph mt-6">
+                        Program Sections are specific segments within a larger
+                        program, each addressing distinct goals for focused and
+                        efficient management.
+                    </p>
+                </div>
+                <!-- card section -->
+                <div class="flex justify-between">
+                    <div class="card w-96 shadow-xl image-full">
+                        <figure>
+                            <img
+                                src="./B9A3-Hockeys-main/Images/2.png"
+                                alt="Shoes"
+                            />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title text-hockey-primary-bg font-bold">
+                                Junior Program
+                            </h2>
+                            <p class="text-hockey-primary-bg">
+                                In hockey, players use a stick <br />In ice or
+                                field.
+                            </p>
+                            <div class="card-actions justify-start">
+                                <button
+                                    class="btn bg-hockey-primary-btn text-hockey-primary-bg border-none"
+                                >
+                                    Register Now!
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-96 shadow-xl image-full">
+                        <figure>
+                            <img
+                                src="./B9A3-Hockeys-main/Images/3.png"
+                                alt="Shoes"
+                            />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title text-hockey-primary-bg font-bold">
+                                Teenager Program
+                            </h2>
+                            <p class="text-hockey-primary-bg">
+                                A Teenager Program in hockey emphasizes skill
+                                development and teamwork for young players.
+                            </p>
+                            <div class="card-actions justify-start">
+                                <button
+                                    class="btn bg-hockey-primary-btn text-hockey-primary-bg border-none"
+                                >
+                                    Register Now!
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card w-full shadow-xl image-full mt-6">
+                        <figure><img src="./B9A3-Hockeys-main/Images/4.png"/></figure>
+                        <div class="card-body">
+                          <h2 class="card-title text-hockey-primary-bg font-bold">Professional Program</h2>
+                          <p class="text-hockey-primary-bg">A Professional Program in hockey is designed for elite players, <br> offering advanced training, strategic coaching, and specialized <br> skill development to elevate performance at <br> the highest level of the sport.</p>
+                          <div class="card-actions justify-start">
+                            <button class="btn bg-hockey-primary-btn text-hockey-primary-bg border-none">Register Now!</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </main>
+            <footer></footer>
+        </div>
     </body>
 </html>
+ 
