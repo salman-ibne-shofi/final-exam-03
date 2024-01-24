@@ -115,10 +115,25 @@
                             class="w-full"
                         />
                         <div
-                            class="absolute flex gap-5 transform -translate-y-1/2 left-5 right-5 bottom-0"
+                            class="absolute flex flex-col lg:flex-row gap-5 transform -translate-y-1/2 left-5 right-5 bottom-0"
                         >
-                            <a href="#slide4" class="btn btn-circle">❮</a>
-                            <a href="#slide2" class="btn btn-circle">❯</a>
+                            <span>
+                                <a href="#slide4" class="btn btn-circle">❮</a>
+                                <a href="#slide2" class="btn btn-circle">❯</a>
+                            </span>
+                            <span
+                                class="bg-[#131318] text-center p-8 rounded-lg lg:w-1/2 w-full absolute right-5 bottom-5"
+                            >
+                                <h3 class="text-hockey-primary-bg">
+                                    Meet all the heroes from the field
+                                </h3>
+                                <p class="text-[#FFFFFF99]">
+                                    Certainly! If you'd like information about
+                                    or to meet the heroes from a specific field,
+                                    please specify the field or context so I can
+                                    provide relevant details.
+                                </p>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -139,7 +154,9 @@
                     </p>
                 </div>
                 <!-- radial progress section -->
-                <div class="flex justify-around gap-8 mt-12">
+                <div
+                    class="flex flex-col lg:flex-row justify-around gap-8 mt-12"
+                >
                     <div class="text-center">
                         <div
                             class="radial-progress text-red-600"
@@ -235,18 +252,21 @@
                     </p>
                 </div>
                 <!-- card section -->
-                <div class="flex justify-between">
-                    <div class="card w-96 shadow-xl image-full">
+                <div class="flex flex-col lg:flex-row justify-between gap-6">
+                    <div class="card shadow-xl image-full lg:w-1/2 w-full">
                         <figure>
-                            <img src="./B9A3-Hockeys-main/Images/2.png" />
+                            <img
+                                src="./B9A3-Hockeys-main/Images/2.png"
+                                class="w-full"
+                            />
                         </figure>
-                        <div class="card-body">
+                        <div class="card-body mt-auto w-1/2">
                             <h2
                                 class="card-title text-hockey-primary-bg font-bold"
                             >
                                 Junior Program
                             </h2>
-                            <p class="text-hockey-primary-bg">
+                            <p class="text-hockey-primary-bg mb-3">
                                 In hockey, players use a stick <br />In ice or
                                 field.
                             </p>
@@ -259,17 +279,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card w-96 shadow-xl image-full">
+                    <div class="card shadow-xl image-full lg:w-1/2 w-full">
                         <figure>
-                            <img src="./B9A3-Hockeys-main/Images/3.png" />
+                            <img
+                                src="./B9A3-Hockeys-main/Images/3.png"
+                                class="w-full"
+                            />
                         </figure>
-                        <div class="card-body">
+                        <div class="card-body mt-auto w-1/2">
                             <h2
                                 class="card-title text-hockey-primary-bg font-bold"
                             >
                                 Teenager Program
                             </h2>
-                            <p class="text-hockey-primary-bg">
+                            <p class="text-hockey-primary-bg mb-3">
                                 A Teenager Program in hockey emphasizes skill
                                 development and teamwork for young players.
                             </p>
@@ -286,15 +309,18 @@
                 <div>
                     <div class="card w-full shadow-xl image-full mt-6">
                         <figure>
-                            <img src="./B9A3-Hockeys-main/Images/4.png" />
+                            <img
+                                src="./B9A3-Hockeys-main/Images/4.png"
+                                class="w-full"
+                            />
                         </figure>
-                        <div class="card-body">
+                        <div class="card-body mt-auto">
                             <h2
                                 class="card-title text-hockey-primary-bg font-bold"
                             >
                                 Professional Program
                             </h2>
-                            <p class="text-hockey-primary-bg">
+                            <p class="text-hockey-primary-bg mb-3">
                                 A Professional Program in hockey is designed for
                                 elite players, <br />
                                 offering advanced training, strategic coaching,
@@ -326,7 +352,7 @@
                         design.
                     </p>
                 </div>
-                <div class="mt-24 grid grid-cols-2 gap-6">
+                <div class="mt-24 grid lg:grid-cols-2 gap-6">
                     <div class="card pl-3 card-side shadow-xl">
                         <figure class="w-40">
                             <img
@@ -496,14 +522,14 @@
                         question. I'm here to help!
                     </p>
                 </div>
-                <div class="flex gap-10 mt-28">
-                    <div class="w-1/2">
+                <div class="flex flex-col lg:flex-row gap-10 mt-28">
+                    <div class="w-full lg:w-1/4">
                         <img
-                            class="mt-6"
+                            class="mt-6 w-full"
                             src="./B9A3-Hockeys-main/Images/11.png"
                         />
                     </div>
-                    <div class="w-1/2">
+                    <div class="w-full lg:w-3/4">
                         <div class="collapse collapse-plus">
                             <input
                                 type="radio"
@@ -650,9 +676,11 @@
                         matter, feel free to provide more details!
                     </p>
                 </div>
-                <div class="flex mt-16 justify-between gap-6">
+                <div
+                    class="flex flex-col lg:flex-row mt-16 justify-between gap-6"
+                >
                     <div
-                        class="flex flex-col gap-6 p-6 border rounded-lg w-1/2"
+                        class="flex flex-col gap-6 p-6 border rounded-lg lg:w-1/2"
                     >
                         <div class="card w-full bg-[#bcd36e19] shadow-xl">
                             <div class="card-body">
@@ -703,8 +731,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-1/2">
-                        <div class="grid grid-cols-2 gap-6">
+                    <div class="lg:w-1/2 mt-4 lg:mt-0">
+                        <div class="grid lg:grid-cols-2 gap-6">
                             <div>
                                 <p
                                     class="text-hockey-primary-title font-bold text-xl"
@@ -786,18 +814,22 @@
                     />
                 </div>
             </main>
-            
         </div>
+        <!-- footer section -->
         <footer class="footer py-16 bg-[#131318] text-base-content mt-24">
-            <div class="w-10/12 mx-auto flex justify-between gap-6">
-                <aside class="w-1/4">
-                    <h3 class="font-extrabold text-xl text-hockey-primary-bg mb-3">
+            <div
+                class="w-10/12 mx-auto flex flex-col items-center lg:flex-row lg:justify-between gap-6 text-center"
+            >
+                <aside class="lg:w-1/4">
+                    <h3
+                        class="font-extrabold text-xl text-hockey-primary-bg mb-3"
+                    >
                         Get In Touch
                     </h3>
                     <p>
-                        Certainly! If you have specific inquiries or need
-                        to get in touch, please provide details so I can assist
-                        you efficiently.
+                        Certainly! If you have specific inquiries or need to get
+                        in touch, please provide details so I can assist you
+                        efficiently.
                     </p>
                     <div class="flex gap-2 mt-6">
                         <img
@@ -814,33 +846,29 @@
                         <p>(+62) 123-321-543</p>
                     </div>
                 </aside>
-                <nav class="flex flex-col">
-                    <header
-                        class="text-hockey-primary-bg font-bold mb-3"
-                    >
-                        Company
-                    </header>
-                    <a class="link link-hover">About Us</a>
-                    <a class="link link-hover">Leadership</a>
-                    <a class="link link-hover">Careers</a>
-                    <a class="link link-hover">News & Article</a>
-                    <a class="link link-hover">Legal NOtice</a>
-                </nav>
-                <nav class="flex flex-col">
-                    <header
-                        class="text-hockey-primary-bg font-bold mb-3"
-                    >
-                        Support
-                    </header>
-                    <a class="link link-hover">Help Center</a>
-                    <a class="link link-hover">FAQ</a>
-                    <a class="link link-hover">Ticket Support</a>
-                    <a class="link link-hover">Contact Us</a>
-                </nav>
-                <nav class="flex flex-col">
-                    <header
-                        class="text-hockey-primary-bg font-bold mb-3"
-                    >
+                <div class="flex lg:w-1/3 gap-8">
+                    <nav class="flex flex-col">
+                        <header class="text-hockey-primary-bg font-bold mb-3">
+                            Company
+                        </header>
+                        <a class="link link-hover">About Us</a>
+                        <a class="link link-hover">Leadership</a>
+                        <a class="link link-hover">Careers</a>
+                        <a class="link link-hover">News & Article</a>
+                        <a class="link link-hover">Legal NOtice</a>
+                    </nav>
+                    <nav class="flex flex-col">
+                        <header class="text-hockey-primary-bg font-bold mb-3">
+                            Support
+                        </header>
+                        <a class="link link-hover">Help Center</a>
+                        <a class="link link-hover">FAQ</a>
+                        <a class="link link-hover">Ticket Support</a>
+                        <a class="link link-hover">Contact Us</a>
+                    </nav>
+                </div>
+                <nav class="flex flex-col lg:w-1/3">
+                    <header class="text-hockey-primary-bg font-bold mb-3">
                         Services
                     </header>
                     <a class="link link-hover">Academy</a>
